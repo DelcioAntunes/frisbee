@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/10/19/44/forest-3308550_960_720.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#g1{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:min-content 1fr ;
+    width: 100%;
+    align-items: center;
+    align-items: baseline;
+    z-index: 1;
+    background-color: white
+}
+
+.f1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.f2{
+    display: flex;
+    list-style: none; 
+    align-items: flex-end;
+   
+}
+
+.f2 a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+}
+
+.f2 a:hover{
+    color: rgba(64, 224, 208, 0.514);
+}
+
+#g1 div p{
+    margin: 0px 0px 31px 235px;
+}
+
+.s1{
+    height: 500px;
+}
+
+.d1{
+    background-color: rgba(255, 255, 255, .5);;
+    border: 1px solid black;
+    margin: 130px auto;
+    height: 300px;
+}
+
+.d1{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1 h1,p, button{
+    margin: 0px;
+}
+
+.d1 h1+p{
+    font-size: 110px;
+    font-weight: 900;
+}
+
+.d1 button{
+    border-radius: 30px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+.d1 button:hover{
+    background-color:rgba(200, 200, 200, .5);; ;
+    transition: .5s;
+}
+
+#s2{
+    top: 20px;
+    height: 600px;
+
+}
+
+.f3{
+    display: flex;
+    flex-direction: row;
+}
+
+.f4{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 400px;
+    align-content: center;
+    align-items: center;
+}
+
+.d2{
+    background-image: url(https://cdn.pixabay.com/photo/2013/06/30/17/15/llanada-142416_960_720.jpg);
+    background-size: cover;
+    width: 50%;
+}
+
+
+
